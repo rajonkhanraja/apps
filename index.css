@@ -1,0 +1,67 @@
+*{box-sizing:border-box}
+body{
+ padding:0px;
+ margin:0px;
+ display:hidden;
+ background:black;
+background-image:url('images/main.jpg');
+
+}
+.mainsection {
+	width: 600;
+	height: 385;
+	background: #35424a;
+	margin: auto;
+	margin-top: 77px;
+	position: relative;
+	box-shadow: 3px 5px 5px #65623c;
+}
+.logopage {
+	position: absolute;
+	margin-left: 200px;
+	width: 200px;
+	border-radius: 100px;
+	margin-top: 10px;
+}
+.img{
+  width:192px;
+  height:190px;
+  background:red;
+  border-radius:100px;
+}
+input[type="text"], input[type="email"] {
+	width: 491px;
+	padding: 5px;
+	margin-bottom: 8px;
+	border: none;
+	border-bottom: 2px solid #a65341;
+	height: 39px;
+	font-size: 25px;
+	color: green;
+	background: #35424a;
+}
+.sineup {
+	position: absolute;
+	
+	width: 400px;
+	margin-left: 84px;
+	margin-top: 232px;
+	height: 46%;
+}
+.Submits {
+	background: #c69a36;
+	padding: 4px 15px;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	border: 1px solid #744800;
+	margin-left: 382px;
+	text-transform: uppercase;
+}
+.Submits:hover{
+  background:white;
+  color:black;
+  border-radius:12px;
+  
+}
+

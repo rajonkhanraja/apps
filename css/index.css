@@ -1,0 +1,358 @@
+body{
+	font:15px/1.5 Arial,sans-serif;
+	padding:0px;
+	margin: 0px;
+	background:#f4f4f4;
+
+}
+*{
+	box-sizing: border-box;
+}
+/****Global ****/
+.container{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+   
+}
+
+header{
+	background-color: #35424a;
+	color:#ffffff;
+	
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+	padding-top:30px;
+	
+}
+header a{
+text-decoration: none;
+color:#ffffff;
+text-transform: uppercase;
+font-size:16px; 
+
+
+}
+header ul{
+    margin:0px;
+    padding:0px;
+
+
+}
+header li{
+	float:left;
+	
+	list-style-type: none;
+	padding:0px 20px 0px 20px;
+
+}
+
+header #brainding{
+	float: left;
+}
+header #brainding h1{
+	margin: 0px;
+
+
+}
+header nav{
+	float:right;
+	margin-top:10px;
+}
+header .highlight{
+  color:red;
+  font-weight: bold;
+
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight: bold;
+	font-size:22px;
+
+}
+#showcase{
+	 background-image: url('../images/annimations/1.jpeg');
+	 min-height: 334px;
+	 animation-name: example;
+     animation-duration: 10s;
+	 animation-iteration-count: infinite;
+	 text-align: center;
+     color:#ffffff;
+
+}
+
+ @keyframes example{
+     0% {background-image: url('../images/annimations/1.jpeg');
+        }
+     25% {
+     	background-image: url('../images/annimations/2.jpeg');
+     }   
+    50% {background-image: url('../images/annimations/3.jpeg');} 
+ 75% {
+ 	background-image: url('../images/annimations/3.jpeg');
+ }
+ 100% {
+ 	background-image: url('../images/annimations/3.jpeg')
+ }
+}
+#showcase h1{
+	margin-top:75px;
+	margin-bottom: 10px;
+	font-size: 50px;
+	
+
+}
+#showcase p{
+	font-size: 20px;
+}
+#newsletter{
+	padding:15px;
+	color:#ffffff;
+	background:#3E4B53;
+
+}
+#newsletter h1{
+	float:left;
+}
+#newsletter form{
+	float:right;
+	margin-top:15px;
+}
+#newsletter input[type="email"] {
+	padding: 4px;
+	height: 34px;
+	width: 250px;
+	font-size: 15px;
+}
+.button_1{
+	
+	background:#e8491d;
+	border:0px;
+	padding:8px;
+	height:45px;
+	
+	color:#ffffff;
+	padding-left:20px;
+	padding-right: 20px;
+	cursor: pointer;
+
+}
+#boxes{margin-top:40px;
+}
+#boxes .box{
+   float:left;
+   width:30%;
+   text-align:center;
+   padding:10px;
+   margin-left:20px;
+   
+}
+#boxes .box img{
+	width:200px;
+	height:150px;
+	opacity: 0.8;
+	cursor: pointer;
+   transition:2000ms;
+}
+#boxes .box img:hover{
+	border-radius: 50%;
+	opacity: 1;
+	transform: rotate(360deg);
+	
+}
+footer {
+	height:50px;
+	padding-top:10px;
+	
+	color: #ffffff;
+	background:#172035;
+	font-size: 18px;
+	text-align: center;
+}
+footer p{
+margin-top:5px;
+}
+#footermenu{
+	margin-top:10px;
+    background-color: #262f39;
+    overflow: hidden;
+
+  
+}
+.soial{
+	float:left;
+	width:30%;
+	
+	padding:10px;
+    
+    margin-left:25px;
+
+    font-size:20px;
+    margin-bottom: 10px;
+     
+}
+.soial{	
+
+	text-align: justify;
+}
+.soial h3{
+	color:#dd7e1a;
+	font-size:20px;
+
+}
+.soial ul{
+	list-style-type: square;
+	color:green;
+
+
+}
+.soial ul li a{
+	color:red;
+	text-decoration: none;
+	
+}
+.spans{
+	color:red;
+}
+.soial h3 p{
+	color:#d38f43;
+}
+.contact_color {
+	color: #ff895c;
+}
+.gmailcolor{
+	color:#e36c2b;
+}
+
+aside#sidebar{
+	float:right;
+	margin-top:0px;
+	
+	width:30%;
+	margin-bottom: 5px;
+	overflow: hidden;
+	box-shadow: 5px 9px 5px #65623c;
+}
+article.main-col {
+	float: left;
+	width: 60%;
+	color: green;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-align: justify;
+	padding: 11px;
+	margin-right: 10px;
+	box-shadow: 5px 9px 5px #65623c;
+}
+.main-col, .text {
+	font-size: 18px;
+	color: #ff895c;
+	text-align: justify;
+	background: #2f353f;
+	
+}
+.dark{
+	background:#343236;
+	padding:18px;
+	font-size:18px;
+    text-align: justify;
+    color:#ff5400;
+  
+}
+#sidebar .dark h1{
+	color:white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-size:25px;
+}
+p.dark {
+	margin-top: 2px;
+}
+fieldset{
+	margin-top:5px;
+	box-shadow: 5px 9px 5px #65623c;
+
+}
+legend{
+	color:#ff4b00;
+	font-size:20px;
+
+}
+#contactsection{
+	margin-top:20px;
+	margin-bottom: 130px;
+}
+#contactsection .Map_content{
+	width:50%;
+	float: left;
+}
+#contactsection .quick_contact{
+	width:40%;
+	float:right;
+	
+}
+#contactsection input[type="text"], input[type="email"], input[type="text"] {
+	width:75%;
+	font-size: 18px;
+	margin-bottom: 5px;
+	height: 35px;
+}
+#contactsection .quick_contact{
+	padding-left: 30px;
+}
+#contactsection .qick_contact, .txt_area {
+	width: 95%;
+	height: 200px;
+	font-size: 18px;
+	font-family: Arial;
+	padding: 5px;
+}
+
+#contactsection .quick_contact input[type="submit"]{
+	width: 80px;
+	height: 35px;
+	font-size: 18px;
+	color: #e36c2b;
+	font-family: "Arial";
+	margin-bottom: 15px;
+	margin-top:10px;
+	cursor: pointer;
+}
+#contactsection .quick_contact p{
+	color:#d38f43;
+	font-family: "Arial";
+	font-size: 22px;
+}
+#contactsection .resetbtn{
+	float:right;
+	margin-right: 19px;
+}
+#contactsection .Map_content .schoolname{
+      color:#d38f43;
+      font-size:18px;
+      font-family: "Arial";
+      font-weight: bold;
+}
+#contactsection .mailing{
+	font-size:24px;
+	color:#d38f43;
+}
+
+#contactsection .email{
+	font-size:15px;
+	color:red;
+}
+#contactsection .maptitle{
+	color:#d38f43;
+	font-size:22px;
+
+}
+#contactsection .Map_content fieldset{
+	width:70%;
+	height: 250px;
+}
+/*..................Responsive..........................*/
+@media(min-width: 990px){
+	
+}
